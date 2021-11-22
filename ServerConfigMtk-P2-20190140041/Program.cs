@@ -16,7 +16,7 @@ namespace ServerConfigMtk_P2_20190140041
             ServiceHost hostObj = null;
             try
             {
-                hostObj = new ServiceHost(typeof(Matematika));
+                hostObj = new ServiceHost(typeof(Matematika)); //
                 hostObj.Open();
                 Console.WriteLine("Server is Ready!!!");
                 Console.ReadLine();
